@@ -2,6 +2,7 @@ interface ICourseGoal {
   title: string;
   description: string;
   handleClick: () => void;
+  // children: React.ReactNode;
 }
 
 const CourseGoal: React.FC<ICourseGoal> = ({
